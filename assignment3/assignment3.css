@@ -1,0 +1,32 @@
+.div1 {
+    background-color:bisque;
+    color:blueviolet;
+}
+
+h1 {
+    color:green;
+}
+
+h2 {
+    color: aqua;
+}
+
+.greenbg {
+    background-color: #00FF00;
+}
+
+.span1 {
+    color:blue;
+}
+
+a {
+    color:red;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color: yellow;
+}
