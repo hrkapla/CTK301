@@ -1,0 +1,57 @@
+.header1 {
+    background-color:yellow;
+}
+
+.p2 {
+    color:red
+}
+
+.p4 {
+    background-color:rgb(152, 228, 21)
+}
+
+h1 {
+    color:white;
+    background-color:rgb(94, 172, 214)
+}
+
+h2 {
+    color: rgb(0, 4, 255);
+}
+
+.p5 {
+    color:red;
+    background-color:yellow
+}
+
+.p6 {
+    background-color:yellow;
+}
+
+.header3 {
+    color:yellow;
+    background-color:green;
+}
+
+.p1 {
+    color:white;
+    background-color:rgb(94, 172, 214)
+}
+
+.span1 {
+    color:orange;
+}
+
+a {
+    color:green;
+    text-decoration: none;
+}
+
+a:visited {
+    color:yellow;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
