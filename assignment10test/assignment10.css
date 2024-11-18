@@ -1,0 +1,156 @@
+body {
+    background-image: url("tealbg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    height: 100%;
+    border: none;
+    background-color: rgba(3, 240, 240, 0.2);
+    /* opacity: 0.5; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.imagewidth {
+    width: 100%;
+    grid-column: span 2;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+section img {
+    grid-column: 1 / 1;
+    width :80%;
+    text-align: center;
+}
+
+.container {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.paragraph {
+    grid-column: 4 / 1;
+    width :80%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+
+.footer {
+    margin: 1em auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    border: 10px solid white;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    grid-column: span 8;
+    text-align: center;
+    height: 100px;
+    border: 10px solid black;
+    background-color:white;
+    padding: 0px;
+}
+
+nav {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+nav li {
+    color: white;
+    border: 1px solid black;
+    /* width: 200px; */
+    padding: 0px;
+    margin-right: 10px;
+    background-color: darkblue;
+    display: block;
+
+}
+
+.centerphoto {
+    /* top: 3px;
+    margin-top: 150px; */
+    /* width: 500px;
+    height: 300px; */
+    grid-column: span 8;
+    width: 100%;
+}
+
+.Nav2 {
+    width: 42px;
+    grid-row: span 3;
+    height: 42px;
+    top: 3px;
+    text-align: right;
+    background-color: red;
+    margin-top: 7px;
+    padding: 5px;
+    vertical-align: right;
+    grid-column: span 2;
+}
+
+nav li a {
+    display: block;
+    width: 60px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: lightskyblue;
+    text-decoration: none;
+}
+
+hr.solid {
+    border-top: 3px solid black;
+}
+
+a {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
