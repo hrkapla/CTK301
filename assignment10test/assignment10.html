@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Main Page
     </title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
     <link rel="stylesheet" href="https://icons.getbootstrap.com/icons/envelope-at-fill/">
     <link rel="stylesheet" href="https://fontawesome.com/v4/icon/bandcamp">
     <link rel="stylesheet" href="https://coreui.io/icons/brand/musescore/">
@@ -33,7 +35,14 @@
             <i class="cib-musescore"></i>
             <i class="bi bi-envelope-at-fill"></i>
         </div>
-    <img class="centerphoto" src="colonyhouse.jpg" alt="mainphoto">
+    <!-- <img class="centerphoto" src="colonyhouse.jpg" alt="mainphoto"> -->
+    <div id="myCarousel" class="f-carousel">
+        <div class="f-carousel__slide"><img src="colonyhouse.jpg"></div>
+        <div class="f-carousel__slide"><img src="top.jpg"></div>
+        <div class="f-carousel__slide"><img src="jukebox.jpg"></div>
+        <div class="f-carousel__slide"><img src="florence.jpg"></div>
+        <div class="f-carousel__slide"><img src="misterwives.jpg"></div>
+    </div>
 
  <div class="container">
     <section>
@@ -56,5 +65,10 @@
 <footer>
 </footer>
 </div>
+<script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    new Carousel(container, options);
+</script>
 </body>
 </html>
