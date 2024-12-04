@@ -1,0 +1,315 @@
+body {
+    background-image: url("tealbg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 1em auto;
+    padding: 0px;
+    width: 960px;
+    height: 100%;
+    border: none;
+    background-color: rgba(3, 240, 240, 0.2);
+    /* opacity: 0.5; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.imagewidth {
+    width: 100%;
+    grid-column: span 2;
+}
+
+h2 {
+    font-family: "Quicksand", sans-serif;
+    font-style: none;
+    width: 80%;
+    margin-bottom: none;
+    margin-left: 22px;
+    border: 5px black;
+    background-color:#0adada;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+section img {
+    grid-column: 1 / 1;
+    width :80%;
+    text-align: center;
+}
+
+.container {
+    margin: 0px;
+    transition: background-color 1s;
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.container section:hover {
+    transition: background-color 1s;
+    background-color:#075867;
+    border-radius: 25px;
+}
+
+.container section img:hover {
+    transition: background-color 1s;
+    background-color:#040404;
+    border-radius: 25px;
+}
+
+.roundedbox {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 300px;
+    background-color: #0793e4;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-image: url(assignment10.html);
+}
+
+.roundedboxremix {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #0793e4;
+    border-radius: 25px;
+    background: url(assignment102.html);
+}
+
+.roundedboxmuse {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #0793e4;
+    border-radius: 25px;
+    background: url(assignment103.html);
+}
+
+.roundedbox2 {
+    grid-column: span 1;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #0793e4;
+    border-radius: 25px;
+}
+
+.paragraph {
+    grid-column: 4 / 1;
+    width :80%;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+
+.footer {
+    margin: 1em auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+    border: 10px solid white;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    grid-column: span 8;
+    text-align: center;
+    height: 100px;
+    padding-top: 30px;
+    border: none;
+    color: white;
+    background-color: #0adada;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #007488;
+}
+
+nav {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+nav li:hover {
+    background-color: rgb(87, 96, 96)
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+nav li {
+    transition: background-color 1s;
+    color: white;
+    border: 1px solid black;
+    /* width: 200px; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    width: 80%;
+    height: 100px;
+    padding-left: 10px;
+    margin: 10px;
+    background-color: rgb(19, 176, 197);
+    display: block;
+    border-radius: 25px;
+}
+
+.centerphoto {
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+    grid-column: span 8;
+    width: 100%;
+    border: 5px black;
+    background-color: #0793e4;
+    border-radius: 25px;
+}
+.centerphoto img {
+    border: 25px black;
+}
+
+.audioplayer audio {
+    align-items: center;
+    width: 80%;
+}
+
+.muselogo {
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(10px 10px 4px rgb(20, 107, 118));
+}
+
+#myCarousel {
+    grid-column: 3 / span 8;
+    width: 100%;
+  }
+  
+#myCarousel img {
+    border-radius: 25px;
+    width: 100%;
+}
+
+  #myCarousel .f-carousel__slide {
+    text-align: center;
+  }
+
+.Nav2 {
+    background-color: rgb(19, 176, 197);
+    text-shadow: 10px 10px 4px rgb(20, 107, 118);
+    border-radius: 50px;
+    font-size: 60px;
+    width: 90%;
+    margin-top: 10px;
+    grid-row: span 3;
+    height: 90%;
+    top: 3px;
+    text-align: center;
+    margin-left: 10px;
+    vertical-align: right;
+    grid-column: span 2;
+    transition: background-color 1s;
+}
+
+.Nav2 a:hover {
+    border-radius: 25px;
+    transition: background-color 1s;
+    background-color:rgb(20, 107, 118);
+}
+
+.Nav2 img:hover {
+    border-radius: 15px;
+    transition: background-color 1s;
+    background-color:rgb(20, 107, 118);
+}
+
+.muse {
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
+    filter: drop-shadow(10px 10px 4px rgb(20, 107, 118));
+}
+
+.email {
+    padding-top: 10px;
+    width: 60px;
+    height: 50px;
+    filter: drop-shadow(10px 10px 4px rgb(20, 107, 118));
+}
+
+nav li a {
+    filter: drop-shadow(10px 10px 4px rgb(20, 107, 118));
+    text-align: left;
+    display: block;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+nav li a:hover {
+    color: rgb(29, 125, 154);
+    text-decoration: none;
+    transition: background-color 1.0s, width 2.0s, color 2.0s; 
+}
+
+hr.solid {
+    border-top: 3px solid black;
+}
+
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(14, 138, 169);
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 1.0s, width 2.0s, color 2.0s; 
+}
+
+a:hover {
+    color: rgb(11, 128, 164);
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 1.0s, width 2.0s, color 2.0s; 
+}

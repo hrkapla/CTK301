@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/icons/envelope-at-fill/">
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icon/bandcamp">
+    <link rel="stylesheet" href="https://coreui.io/icons/brand/musescore/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="assignment10.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+    
+<nav>
+    <ul>
+        <li><a href="assignment10.html">Main</a></li>
+        <li><a href="assignment102.html">Remixes</a></li>
+        <li><a href="assignment103.html">Sheet Music</a></li>
+        </ul>
+        </nav>
+            <h1>
+                Hannah Kaplan
+                </h1>
+                <div class="Nav2">
+                    <a href="https://hrkapla.bandcamp.com/" class="fa fa-bandcamp" aria-hidden="true"></a><br>
+                    <a href="https://soundcloud.com/user-525721351" class="fa fa-soundcloud"></a><br>
+                    <a href="https://musescore.com/user/3749941"><img class="muselogo" src="MuseScore_logo.png" alt="muse"></a><br>
+                    <a href="mailto:hrkapla@ilstu.edu"><img class="email" src="email.png" alt="email"></a>
+                </div>
+    <!-- <img class="centerphoto" src="colonyhouse.jpg" alt="mainphoto"> -->
+    <div id="myCarousel" class="f-carousel">
+        <div class="f-carousel__slide"><img src="colonyhouse.jpg"></div>
+        <div class="f-carousel__slide"><img src="top.jpg"></div>
+        <div class="f-carousel__slide"><img src="jukebox.jpg"></div>
+        <div class="f-carousel__slide"><img src="florence.jpg"></div>
+        <div class="f-carousel__slide"><img src="misterwives.jpg"></div>
+    </div>
+
+ <div class="container">
+    <section>
+    <h2>Latest Project</h2>
+<img class="roundedbox" src="clancy.png" alt="clancy">
+<div class="audioplayer">
+<audio controls autoplay >
+    <source src="Routines REMIX MASTERED.wav" type="audio/wav">
+  </audio></div>
+</section>
+    <section><h2>Remixes</h2>
+        <a href="assignment102.html"><img class="roundedbox" src="flstudio.jpg"></a></section>
+<!--<img class="roundedboxremix" src="flstudio.jpg" href="assignment102.html" alt="fl"></section>-->
+    <section><h2>Sheet Music</h2>
+<a href="assignment103.html"><img class="roundedbox" src="musescore example.jpg"></a></section>
+<!--<img class="roundedboxmuse" src="musescore example.jpg" alt="muse"></section>-->
+    <section><h2>Hello There!</h2>
+<img class="roundedbox2" src="me.jpg" alt="me"></section>    
+  </div>
+</div>
+
+<footer>
+</footer>
+</div>
+<script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: true };
+    new Carousel(container, options);
+</script>
+</body>
+</html>
